@@ -1,9 +1,9 @@
 'use strict';
 
 // TODO: Write the homework code in this file
-var fs = require("fs");
-var args = process.argv.slice(2);
-var arg = args[0];
+const fs = require("fs");
+const args = process.argv.slice(2);
+const arg = args[0];
 
 
 const createFile = fs.appendFileSync('./todos.txt', '', (err) => {
